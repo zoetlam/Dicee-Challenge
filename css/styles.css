@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Indie+Flower&display=swap');
+
+/* Google Font
+    font-family: 'Charmonman', cursive;
+    font-family: 'Indie Flower', cursive;
+*/
+.invisible{
+    visibility: hidden;
+}
+.center {
+    margin: 0 auto;
+    width: 30%;
+}
+ h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    margin: 0 auto;
+    padding: 0;
+    background-color:steelblue;
+    color: whitesmoke;
+}
+h1 {
+    font-family: 'Charmonman', cursive;
+    margin-top: 50px;
+    font-size: 5.5rem;
+    color: mediumaquamarine;
+}
+.player{
+    margin-top: 60px;
+}
+.player img{
+    transform: scale(0.9);
+    margin: 20px 0;
+    width: 100%;
+}
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+}
