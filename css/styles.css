@@ -4,14 +4,15 @@
     font-family: 'Charmonman', cursive;
     font-family: 'Indie Flower', cursive;
 */
+.container {
+    margin: auto;
+    text-align: center;
+}
 .invisible{
     visibility: hidden;
 }
-.center {
-    margin: 0 auto;
-    width: 30%;
-}
- h1, h2, h3{
+
+h1, h2, h3{
     margin: 0;
     padding: 0;
     text-align: center;
@@ -31,23 +32,28 @@ h1 {
 }
 .player{
     margin-top: 60px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
 }
 .player img{
-    margin: 20px 0;
-    width: 100%;
+    margin-top: 20px;
+    width: 80%;
 }
+
 button{
     background-color: snow;
-    font-weight: bold;
-    margin: 10px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
     border-radius: 10px;
-    width: 150px;
-    height: 40px;
     border: none;
+    padding: 10px 30px;
+    display: block;
 }
 button:hover{
     background-color: lightgoldenrodyellow;
     transform: scale(110%);
+    
     border: none;
 }
 footer {
@@ -59,5 +65,12 @@ footer {
 @media screen and (max-width: 767px){
     h1{
         font-size:  4rem;
+    }
+    .player{
+        width: 40%;
+        padding: 10px;
+    }
+    .player img{
+        width: 50%;
     }
 }
