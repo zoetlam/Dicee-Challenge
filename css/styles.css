@@ -26,18 +26,18 @@ body{
 h1 {
     font-family: 'Charmonman', cursive;
     margin-top: 50px;
-    font-size: 5.5rem;
+    font-size:  5.5rem;
     color: mediumaquamarine;
 }
 .player{
     margin-top: 60px;
 }
 .player img{
-    transform: scale(0.9);
     margin: 20px 0;
     width: 100%;
 }
 button{
+    background-color: snow;
     font-weight: bold;
     margin: 10px auto;
     border-radius: 10px;
@@ -54,4 +54,10 @@ footer {
     margin-top: 2%;
     color: #EEEEEE;
     text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size:  4rem;
+    }
 }
