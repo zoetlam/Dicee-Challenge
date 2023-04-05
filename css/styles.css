@@ -37,8 +37,21 @@ h1 {
     margin: 20px 0;
     width: 100%;
 }
+button{
+    font-weight: bold;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+button:hover{
+    background-color: lightgoldenrodyellow;
+    transform: scale(110%);
+    border: none;
+}
 footer {
-    margin-top: 5%;
+    margin-top: 2%;
     color: #EEEEEE;
     text-align: center;
 }
