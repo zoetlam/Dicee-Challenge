@@ -7,10 +7,8 @@ function play(){
     let randomNumber1 = randomNumber();
     let randomNumber2 = randomNumber();
 
-    let imgSrc1 = imgSrc(randomNumber1);
-    let imgSrc2 = imgSrc(randomNumber2);
-    document.querySelectorAll('img')[0].setAttribute('src', imgSrc1);
-    document.querySelectorAll('img')[1].setAttribute('src', imgSrc2);
+    document.querySelectorAll('img')[0].setAttribute('src', imgSrc(randomNumber1));
+    document.querySelectorAll('img')[1].setAttribute('src', imgSrc(randomNumber2));
 
     if(randomNumber1 === randomNumber2){
         document.querySelector('h1').innerHTML = "Draw!!";
